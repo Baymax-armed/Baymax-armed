@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Mohammed Nadeem Mansoori - Senior Application Security Engineer, Mumbai IN">
+  <title>Mohammed Nadeem Mansoori - Senior Application Security Engineer</title>
+  <defs>
+    <radialGradient id="glow" cx="16%" cy="6%" r="78%">
+      <stop offset="0" stop-color="#96c8ff" stop-opacity="0.17"/>
+      <stop offset="0.55" stop-color="#96c8ff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#96c8ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cfe8ff" stop-opacity="0.45"/>
+      <stop offset="0.62" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hexfade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.15"/>
+    </linearGradient>
+    <mask id="hexmask">
+      <rect x="880" y="40" width="290" height="250" fill="url(#hexfade)"/>
+    </mask>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.032" stroke-width="1"/>
+    </pattern>
+    <clipPath id="round"><rect x="0" y="0" width="1200" height="320" rx="16"/></clipPath>
+  </defs>
+
+  <style>
+    .cur { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 0%,52% { opacity: 1 } 53%,100% { opacity: 0 } }
+    @media (prefers-reduced-motion: reduce) { .cur { animation: none } }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+    .disp { font-family: "Instrument Serif", Georgia, "Times New Roman", serif; }
+  </style>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="#000000"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+
+    <g mask="url(#hexmask)" class="mono" font-size="11.5" fill="#cfe8ff" fill-opacity="0.13" letter-spacing="1.2">
+      <text x="900" y="72">4f 57 41 53 50 2d 41 30 31</text>
+      <text x="900" y="98">2f 62 72 6f 6b 65 6e 2d 61 63</text>
+      <text x="900" y="124">63 65 73 73 2d 63 6f 6e 74 72</text>
+      <text x="900" y="150">6f 6c 20 3e 20 74 68 72 65 61</text>
+      <text x="900" y="176">74 2d 6d 6f 64 65 6c 20 3e 20</text>
+      <text x="900" y="202">73 68 69 66 74 2d 6c 65 66 74</text>
+      <text x="900" y="228">20 3e 20 64 65 74 65 63 74 20</text>
+      <text x="900" y="254">3e 20 72 65 73 70 6f 6e 64 21</text>
+    </g>
+
+    <g class="mono" font-size="14.5" letter-spacing="0.2">
+      <text x="64" y="92" fill="#cfe8ff">nadeem@appsec</text>
+      <text x="217" y="92" fill="#f4f4f5" fill-opacity="0.42">:~$</text>
+      <text x="252" y="92" fill="#f4f4f5" fill-opacity="0.72">whoami</text>
+    </g>
+
+    <text x="64" y="170" class="disp" font-size="56" fill="#f4f4f5" letter-spacing="-0.5">Mohammed Nadeem Mansoori</text>
+
+    <rect x="64" y="200" width="1072" height="1" fill="url(#rule)"/>
+
+    <text x="64" y="236" class="mono" font-size="16" fill="#f4f4f5" fill-opacity="0.66">Senior Application Security Engineer</text>
+    <text x="64" y="272" class="mono" font-size="12.5" fill="#f4f4f5" fill-opacity="0.40" letter-spacing="2.4">APPSEC &#183; DEVSECOPS &#183; CLOUD SECURITY &#183; GRC &#183; SECOPS &#183; MUMBAI, IN</text>
+    <rect class="cur" x="690" y="262" width="9" height="16" fill="#cfe8ff" fill-opacity="0.85"/>
+
+    <rect x="0.5" y="0.5" width="1199" height="319" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+  </g>
+</svg>
